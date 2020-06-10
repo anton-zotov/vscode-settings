@@ -1,4 +1,5 @@
-.tabs-and-actions-container, .tabs-and-actions-container > .monaco-scrollable-element {
+.tabs-and-actions-container,
+.tabs-and-actions-container > .monaco-scrollable-element {
 	height: auto !important;
 }
 
@@ -10,4 +11,13 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
 	height: 22px;
 	padding-left: 4px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions .action-label:not(span),
+.monaco-workbench .part.editor > .content .editor-group-container > .title .title-actions .action-label {
+	height: 22px !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
+	height: 22px !important;
 }
