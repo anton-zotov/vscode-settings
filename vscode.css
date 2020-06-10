@@ -1,0 +1,13 @@
+.tabs-and-actions-container, .tabs-and-actions-container > .monaco-scrollable-element {
+	height: auto !important;
+}
+
+.tabs-and-actions-container > .monaco-scrollable-element > .tabs-container {
+	height: auto !important;
+	flex-wrap: wrap;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+	height: 22px;
+	padding-left: 4px;
+}
