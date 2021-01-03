@@ -21,3 +21,11 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
 	height: 22px !important;
 }
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label {
+	line-height: unset;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit {
+	width: unset;
+}
